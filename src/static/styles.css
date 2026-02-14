@@ -151,9 +151,16 @@ footer {
   border-radius: 4px;
 }
 
+
 .participants-list {
-  margin: 8px 0 0 18px;
+  margin: 8px 0 0 0;
   padding: 0;
+}
+
+.participants-list.no-bullets {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .participant-badge {
